@@ -27,7 +27,7 @@ const Home = () => {
     function addClippy () {
         clippy.load('Clippy', (agent) => {
             agent.show();
-            agent.moveTo(100, 100);
+            agent.moveTo(1000, 1000);
             agent.speak("Hello World!");
         });
     }
